@@ -1,17 +1,38 @@
-TECEZE Price Book Calculator (MERN)
+# 🚀 TECEZE Price Book Calculator (MERN)
 
-Overview
-Full‑stack price book calculator for TECEZE. Pick Region → Country → Level (L1–L5) → Service Type (Full Day, Half Day, Dispatch), add travel distance and optional out‑of‑hours/weekend multipliers. The app calculates base, travel, service management fee (5%), and total, and can export a professional PDF.
+A **full-stack price book calculator** developed for TECEZE’s assessment task.  
+Built with the **MERN stack** (MongoDB, Express, React, Node.js), featuring **Ant Design UI**, **mobile responsiveness**, and a smooth **user experience**.  
 
-Live URL
-- Frontend: https://teceze.netlify.app
-- Backend API (Render): https://teceze-task.onrender.com (data pre‑seeded in MongoDB Atlas)
+---
+
+## 🌐 Live URLs
+
+- **Frontend (Netlify):** [https://teceze.netlify.app](https://teceze.netlify.app)  
+- **Backend API (Render):** [https://teceze-task.onrender.com](https://teceze-task.onrender.com) *(MongoDB Atlas pre-seeded)*  
+
+> ⚠️ Note: Render’s free server sleeps after ~15 minutes of inactivity.  
+> To prevent downtime, **UptimeRobot monitoring** is configured.
+
+---
+
+## ✨ Overview
+
+- Pick **Region → Country → Level (L1–L5) → Service Type** (Full Day / Half Day / Dispatch)  
+- Add **travel distance** and optional **out-of-hours / weekend multipliers**  
+- Calculates:
+  - Base price  
+  - Travel cost  
+  - Service management fee (5%)  
+  - Grand total  
+- Option to **export a professional PDF invoice**  
+- Built with **Ant Design (Ant UI)**, simple clean UI, and optimized UX  
+- **Mobile-responsive** across devices  
+
+---
+
+## 📂 Repository Structure
 
 
-License
-This project is for TECEZE’s assessment and demonstration purposes.
-
-Repository Structure
 ```
 Teceze/
 ├─ backend/
@@ -39,7 +60,7 @@ Teceze/
 └─ README.md
 ```
 
-How to Clone and Run
+## ⚙️ How to Clone and Run
 ```
 git clone https://github.com/Keerthithev/Teceze_task.git
 cd Teceze_task
